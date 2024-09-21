@@ -495,6 +495,38 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
+.social-list {
+  display: flex;
+  gap: 15px; /* Adjust spacing between icons */
+}
+
+.social-icon {
+  font-size: 30px; /* Increase icon size */
+  transition: transform 0.3s; /* Add a smooth hover effect */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+
+.avatar-box {
+  display: inline-block;
+  border-radius: 15px; /* Rounded edges but not circular */
+  overflow: hidden; /* Ensures the image stays within the rounded container */
+  background: none; /* Removes any background color */
+}
+
+.avatar-box img {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Preserve the image aspect ratio */
+  border-radius: 15px; /* Matches the figure's rounded edges */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  background: none; /* Removes any background from the image */
+}
+
+
+
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
