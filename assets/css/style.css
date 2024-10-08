@@ -836,6 +836,59 @@ main {
  * skills 
  */
 
+.sk{
+  font-weight: bold;
+  color: #0c0c0c;
+  padding-left: 10%;
+}
+
+
+
+ .skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 3-4 items per row depending on screen size */
+  gap: 16px; /* Space between grid items */
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+
+.skills-item:hover {
+  background-color: #0c0c0c;
+  color: #e0e0e0; /* Change background color on hover */
+}
+
+.skill-icon {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  margin-right: 8px; /* Spacing between icon and text */
+  vertical-align: middle; /* Align icon with text */
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+.skills-item {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+.skills-item:hover .sk {
+  color: #e0e0e0; /* Change color of .sk class on hover */
+}
+.skill-icon {
+  font-size: 30px;
+  margin-right: 8px;
+}
+
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
