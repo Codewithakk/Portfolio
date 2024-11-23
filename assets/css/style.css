@@ -16,11 +16,11 @@
 
 /* Contact title link */
 .resume-title {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color:  var(--orange-yellow-crayola);
 }
 
-.cresume-link {
+.resume-link {
   text-decoration: none;
   color: var(--orange-yellow-crayola);
   font-weight: bold;
