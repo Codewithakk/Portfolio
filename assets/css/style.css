@@ -10,24 +10,25 @@
   align-items: center; /* Centers items horizontally */
   justify-content: center; /* Centers items vertically */
   margin-top: 20px;
+
 }
 
 
 /* Contact title link */
 .resume-title {
-  font-size: 1rem;
+  font-size: 2rem;
   color:  var(--orange-yellow-crayola);
 }
 
 .cresume-link {
   text-decoration: none;
-  color: #007bff;
+  color: var(--orange-yellow-crayola);
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .resume-link:hover {
-  color: #0056b3;
+  color:var(--orange-yellow-crayola);
 }
 
 
