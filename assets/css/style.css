@@ -12,12 +12,6 @@
   margin-top: 20px;
 }
 
-/* Icon styling */
-.icon-box ion-icon {
-  font-size: 2rem;
-  color: #007bff;
-  margin-bottom: 8px; /* Adds spacing between icon and link */
-}
 
 /* Contact title link */
 .contact-title {
