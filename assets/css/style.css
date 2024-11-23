@@ -3,11 +3,38 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
+/* Center alignment for the icon-box  resume*/ 
+.icon-box {
+  display: flex;
+  flex-direction: column; /* Stacks the icon and text vertically */
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  margin-top: 20px;
+}
 
+/* Icon styling */
+.icon-box ion-icon {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 8px; /* Adds spacing between icon and link */
+}
 
+/* Contact title link */
+.contact-title {
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #0056b3;
+}
 
 
 
