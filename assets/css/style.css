@@ -10,6 +10,7 @@
   align-items: center; /* Centers items horizontally */
   justify-content: center; /* Centers items vertically */
   margin-top: 20px;
+  background: var(--border-gradient-onyx);
   color:  var(--orange-yellow-crayola);
 }
 
