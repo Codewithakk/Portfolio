@@ -4,19 +4,19 @@
 
 
 /* Center alignment for the icon-box  resume*/ 
-.icon-box {
+.icon-resume {
   display: flex;
   flex-direction: column; /* Stacks the icon and text vertically */
   align-items: center; /* Centers items horizontally */
   justify-content: center; /* Centers items vertically */
   margin-top: 20px;
-  padding-left:100px
+  padding-left:120px
 }
 
 
 /* Contact title link */
 .resume-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color:  var(--orange-yellow-crayola);
 }
 
